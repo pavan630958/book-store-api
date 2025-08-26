@@ -1,0 +1,35 @@
+# Build outputs
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+*.log
+
+# IDE & tooling
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.sts4-cache/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+
+# Spring Boot local config (ignore if it has secrets)
+# application.properties
+# application.yml
+# application-*.properties
+# application-*.yml
+
+# Databases
+*.db
+*.sqlite
